@@ -23,31 +23,39 @@ label
 
 section
 {
+    align-items: center;
     width: 850px;
     border: 15px solid white;
     border-radius: 2ch;
-    padding: 25px;
+    padding: 5px;
     padding-left: 70px;
     padding-right: 2px;
     background-color: black;
     margin-top: 50px;
-    margin-left: 100px;
-    margin-bottom: 10px;
-    margin-right: 10px;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-right: auto;
     font-size: x-large;
+    text-align: center;
 }
 
 body
 {
-    background-color: lightblue ;
+    background-color: lightblue;
+    
 
 }
 
 .navegacion
 {
+    margin: auto;
     width: 900px;
-    margin: 50px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-right: auto;
     background-color: lightblue;
+    text-align: center;
 }
 
 .navegacion ul
@@ -69,12 +77,15 @@ body
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
 }
-/*
+
 img{
-    float: left;
-    height: 100%;
-    margin: 50px;
-}*/
+    margin-top: 50px;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    display:flex;
+    justify-content: center;
+}
 
 .menu li a:hover{
     color: aqua;
