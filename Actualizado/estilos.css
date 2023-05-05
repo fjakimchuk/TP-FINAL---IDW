@@ -1,0 +1,311 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+h1
+{
+    color: black
+}
+
+h2
+{
+    color: black
+}
+
+.logo{
+    float: left;
+    
+}
+.logo img{
+    width: 150px;
+}
+
+label
+{
+    margin: 20px;
+}
+section
+{
+    /*align-items: center;*/
+    width: 1150px;
+    /*border: 15px solid white;*/
+    border-radius: 2ch;
+    padding: 5px;
+    padding-left: 70px;
+    padding-right: 2px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    font-size: x-large;
+    text-align: center;
+}
+
+body
+{
+    background-color: lightblue;
+    
+
+}
+
+.navegacion
+{
+    margin: auto;
+    width: 1100px;
+    margin-top: 50px;
+    /*margin-left: 150px;
+    margin-bottom: auto;*/
+    margin-right: auto;
+    background-color: lightblue;
+    /*text-align: right;*/
+}
+
+.navegacion ul
+{
+ list-style: none;
+}
+/*Menu*/
+.menu li
+{
+    position: relative;
+    display: inline-block;
+}
+
+.menu > li > a 
+{
+    display: block;
+    padding: 15px 20px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+
+img{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: auto;
+    margin-right: auto;
+    display:flex;
+    justify-content: center;
+}
+
+.menu li a:hover{
+    color: aqua;
+}
+
+/*Submenu*/
+
+.submenu
+{
+    position: absolute;
+    background-color: lightblue;
+    display: none;
+}
+
+.submenu li a
+{
+    display: block;
+    padding: 15px;
+    color: black;
+
+}
+
+.menu li:hover .submenu{
+    display: block;
+}
+
+/*Contacto*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contenedor-formulario{
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 50px;
+    margin-top: 20px;
+}
+.contenedor-formulario h2{
+    margin-bottom: 15px;
+    font-size: 35px
+}
+.contenedor-formulario p{
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+.contenedor-formulario a{
+    font-size: 17px;
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    margin-bottom: 15px;
+    color: black;
+    font-weight: 700;
+}
+/*iconos*/
+.contenedor-formulario a i{
+    color: #042240 ;
+    margin-right: 10px;
+}
+/*Campos a llenar*/
+.contenedor-formulario form .campo, textarea{
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 16px;
+    border: 1px solid #dbdbdb;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    outline: 0px;
+}
+.contenedor-formulario form textarea{
+    max-width: 530px;
+    min-width: 530px;
+    min-height: 140px;
+    max-height: 150px;
+}
+/*Boton enviar*/
+.contenedor-formulario .btn-enviar{
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    outline: 0px;
+    background: #042240;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+.contenedor-formulario .btn-enviar:hover{
+    background: rgb(18, 114, 216);
+}
+h3{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #094888;
+    text-align: center;
+    margin-top: 5%;
+}
+.historia {
+    margin: auto;
+    height: auto;
+    box-sizing: border-box;
+    background:-moz-radial-gradient(rgb(80, 80, 222) rgb(43, 63, 100) rgb(59, 56, 56) );
+}
+p {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 8%;
+    text-align: center;
+    margin-top: 3px;
+
+   ;
+}
+h2 {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #094888;
+    text-align: center;
+    ;
+}
+h4 {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #094888;
+    text-align: center;
+    }
+
+
+.imagenes2{
+    margin-top: 3px;
+    padding: 5px;
+    justify-content:center;
+    margin-left: 15px;
+    margin-right: 5px;
+    margin-top: -5px;
+    margin-bottom: 50px;
+    display:flex;
+    line-height:-10;
+}
+
+.imagenes2:hover {
+    cursor:pointer;
+    transform:scale(1.2);
+    transition: 0.80 ease-out;
+}
+.contenedor-imagen {
+    display: inline-block;
+}
+
+.campeonatos{
+    padding: 25px;
+    margin:auto;
+    text-align:center;
+    font-size: 16px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.contenedor-mundial78 {
+    display:flex;
+    justify-content: center;
+
+}
+.img1 {
+    margin-left: 5px;
+    width: 250px;
+}
+.img2 {
+    margin-left: 5px; width: 250px;
+}.img3 {
+    margin-left: 5px; width: 250px;
+}.img4 {
+    margin-left: 5px; width: 250px;
+}.img5 {
+    margin-left: 5px; width: 250px;
+}
+
+
+.contenedor-mundia278 {
+    display:flex;
+    justify-content: center;
+
+}
+.img6 {
+    margin-left: 5px;
+    width: 250px;
+}
+.img7 {
+    margin-left: 5px; width: 250px;
+}.img8 {
+    margin-left: 5px; width: 250px;
+}
+
+.video1 {
+    width: 350px;
+    background: black;
+
+    
+}
+h6{
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.contenedor-mundia2022 {
+    display:flex;
+    justify-content:center;
+
+}
+.img8{margin-left: 5px; width: 250px;
+
+}
+.img10 {margin-left: 5px; 
+    width: 250px;}
